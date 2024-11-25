@@ -38,7 +38,7 @@
         const onTransitionEnd = () => {
             element.removeEventListener("transitionend", onTransitionEnd);
             element.remove();
-            goto("/home");
+            goto("/game");
         };
 
         element.addEventListener("transitionend", onTransitionEnd);
