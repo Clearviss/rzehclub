@@ -52,6 +52,6 @@
         on:mouseleave={() => changePos(event, false)}
         on:click={() => moveOut(event)}
     >
-        Welcome
+        Play
     </button>
 </div>
